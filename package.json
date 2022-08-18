@@ -1,0 +1,15 @@
+{
+  "name": "react-jsx-lite",
+  "author": {
+    "name": "Anderson D. Rosa",
+    "email": "andersondrosa@outlook.com"
+  },
+  "description": "JSX in vanilla JS with lite function helpers (initial concepts)",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.6"
+  }
+}

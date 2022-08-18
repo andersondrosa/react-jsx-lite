@@ -1,0 +1,29 @@
+{
+  "include": ["src", "types"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["esnext", "dom"],
+    "strict": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "rootDir": "./src",
+    "outDir": "./dist/cjs",
+    "removeComments": true,
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}
